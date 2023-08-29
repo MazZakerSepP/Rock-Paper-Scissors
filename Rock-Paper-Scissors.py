@@ -18,8 +18,8 @@ while player == False:
             print("Du hast Verloren!", computer, "schneidet", player)
         else:
             print("Du hast Gewonnen!", player, "umwickelt", computer)
-    elif player == "Scissors":
-        if computer == "Rock":
+    elif player == "Schere":
+        if computer == "Stein":
             print("Du hast Verloren...", computer, "zerstört", player)
         else:
             print("Du hast Gewonnen!", player, "schneidet", computer)
